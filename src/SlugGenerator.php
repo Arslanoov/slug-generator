@@ -304,8 +304,7 @@ class SlugGenerator implements SlugGeneratorInterface
 				}
 			}
 		} finally {
-			ini_set('intl.error_level', $errorLevel);
-			ini_set('intl.use_exceptions', $useExceptions);
+			
 		}
 
 		throw new \InvalidArgumentException(
